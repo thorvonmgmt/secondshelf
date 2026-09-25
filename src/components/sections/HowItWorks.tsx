@@ -1,7 +1,7 @@
 import React from 'react';
 import { Search, MessageSquare, Image as ImageIcon, Scale, Truck } from 'lucide-react';
 
-const INSTAGRAM_HANDLE = '@secondself.exe';
+const INSTAGRAM_HANDLE = '@secondshelf.exe';
 
 export function HowItWorks() {
   const steps = [

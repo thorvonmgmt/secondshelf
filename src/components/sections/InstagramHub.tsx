@@ -1,7 +1,7 @@
 import React from 'react';
 import { InstagramIcon } from '@/components/ui/InstagramIcon';
 
-const INSTAGRAM_HANDLE = '@secondself.exe';
+const INSTAGRAM_HANDLE = '@secondshelf.exe';
 
 export function InstagramHub() {
   return (

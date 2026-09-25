@@ -1,7 +1,7 @@
 import React from 'react';
 import { BookPlus, Search } from 'lucide-react';
 
-const INSTAGRAM_HANDLE = '@secondself.exe';
+const INSTAGRAM_HANDLE = '@secondshelf.exe';
 
 export function BuyAndSellCards() {
   return (

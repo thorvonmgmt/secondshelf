@@ -1,7 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 
-const INSTAGRAM_HANDLE = '@secondself.exe';
+const INSTAGRAM_HANDLE = '@secondshelf.exe';
 
 export function Footer() {
   return (

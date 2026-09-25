@@ -357,7 +357,7 @@ export function FairPriceCalculator() {
                 </button>
 
                 <p className="text-center text-[11px] text-[#A6BFA6]">
-                  Paste your copied valuation directly in DM to <strong className="text-[#FAF9F5]">@secondself.exe</strong>
+                  Paste your copied valuation directly in DM to <strong className="text-[#FAF9F5]">@secondshelf.exe</strong>
                 </p>
 
                 {/* Disclaimer */}

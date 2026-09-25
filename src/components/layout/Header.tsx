@@ -63,7 +63,7 @@ export function Header() {
         <div className="flex items-center gap-3">
           <div className="hidden sm:flex items-center text-xs text-[#586358]">
             <span className="font-mono text-[#122416] font-semibold bg-[#122416]/5 px-3 py-1.5 rounded-full border border-[#122416]/10">
-              @secondself.exe
+              @secondshelf.exe
             </span>
           </div>
 
@@ -93,7 +93,7 @@ export function Header() {
               </a>
             ))}
             <div className="pt-2 text-center text-xs text-[#586358]">
-              Official Instagram: <span className="font-semibold text-[#122416]">@secondself.exe</span>
+              Official Instagram: <span className="font-semibold text-[#122416]">@secondshelf.exe</span>
             </div>
           </nav>
         </div>
