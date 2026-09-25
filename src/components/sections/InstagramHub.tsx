@@ -1,9 +1,7 @@
 import React from 'react';
-import { ArrowUpRight } from 'lucide-react';
 import { InstagramIcon } from '@/components/ui/InstagramIcon';
 
-const INSTAGRAM_URL = 'https://instagram.com/secondshelf';
-const INSTAGRAM_HANDLE = '@secondshelf';
+const INSTAGRAM_HANDLE = '@secondself.exe';
 
 export function InstagramHub() {
   return (
@@ -52,16 +50,10 @@ export function InstagramHub() {
               Drop us a DM with the books you'd like to sell or titles you've been searching for. Our team is active every day.
             </p>
 
-            <a
-              href={INSTAGRAM_URL}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2.5 px-8 py-4 rounded-full bg-[#FAF9F5] text-[#122416] text-sm font-bold hover:bg-[#EAE8DD] hover:scale-105 active:scale-95 transition-all shadow-lg"
-            >
-              <InstagramIcon className="w-4 h-4 text-[#122416]" />
-              <span>Message Us: {INSTAGRAM_HANDLE}</span>
-              <ArrowUpRight className="w-4 h-4 opacity-60" />
-            </a>
+            <div className="inline-flex items-center gap-2.5 px-6 py-3.5 rounded-full bg-[#1A3420] border border-[#25432B] text-sm text-[#FAF9F5] shadow-sm">
+              <InstagramIcon className="w-4 h-4 text-[#B5D0A4]" />
+              <span>Official Instagram: <strong className="text-[#B5D0A4]">{INSTAGRAM_HANDLE}</strong></span>
+            </div>
           </div>
         </div>
       </div>

@@ -1,9 +1,7 @@
 import React from 'react';
-import { ArrowRight, BookPlus, Search } from 'lucide-react';
-import { InstagramIcon } from '@/components/ui/InstagramIcon';
+import { BookPlus, Search } from 'lucide-react';
 
-const INSTAGRAM_URL = 'https://instagram.com/secondshelf';
-const INSTAGRAM_HANDLE = '@secondshelf';
+const INSTAGRAM_HANDLE = '@secondself.exe';
 
 export function BuyAndSellCards() {
   return (
@@ -56,17 +54,11 @@ export function BuyAndSellCards() {
               </ul>
             </div>
 
-            <div>
-              <a
-                href={INSTAGRAM_URL}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-full py-4 px-6 rounded-full bg-[#122416] text-[#FAF9F5] text-xs sm:text-sm font-semibold hover:bg-[#1A3420] transition-all flex items-center justify-center gap-2 shadow-sm"
-              >
-                <InstagramIcon className="w-4 h-4 text-[#B5D0A4]" />
-                <span>Sell Your Book → Instagram</span>
-                <ArrowRight className="w-4 h-4" />
-              </a>
+            <div className="pt-4 border-t border-[#E3E2D8] flex items-center justify-between text-xs text-[#586358]">
+              <span className="font-medium">Direct Inquiries:</span>
+              <span className="font-semibold text-[#122416] bg-[#F2F1EA] px-3.5 py-1.5 rounded-full border border-[#E3E2D8]">
+                DM {INSTAGRAM_HANDLE}
+              </span>
             </div>
           </div>
 
@@ -104,17 +96,11 @@ export function BuyAndSellCards() {
               </ul>
             </div>
 
-            <div>
-              <a
-                href={INSTAGRAM_URL}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-full py-4 px-6 rounded-full bg-[#122416] text-[#FAF9F5] text-xs sm:text-sm font-semibold hover:bg-[#1A3420] transition-all flex items-center justify-center gap-2 shadow-sm"
-              >
-                <InstagramIcon className="w-4 h-4 text-[#B5D0A4]" />
-                <span>Find a Book → Instagram</span>
-                <ArrowRight className="w-4 h-4" />
-              </a>
+            <div className="pt-4 border-t border-[#E3E2D8] flex items-center justify-between text-xs text-[#586358]">
+              <span className="font-medium">Wishlist Requests:</span>
+              <span className="font-semibold text-[#122416] bg-[#F2F1EA] px-3.5 py-1.5 rounded-full border border-[#E3E2D8]">
+                DM {INSTAGRAM_HANDLE}
+              </span>
             </div>
           </div>
         </div>

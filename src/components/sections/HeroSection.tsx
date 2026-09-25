@@ -3,8 +3,8 @@ import Image from 'next/image';
 import { ArrowRight, Calculator, ShieldCheck } from 'lucide-react';
 import { InstagramIcon } from '@/components/ui/InstagramIcon';
 
-const INSTAGRAM_URL = 'https://instagram.com/secondshelf';
-const INSTAGRAM_HANDLE = '@secondshelf';
+const INSTAGRAM_URL = 'https://instagram.com/secondself.exe';
+const INSTAGRAM_HANDLE = '@secondself.exe';
 
 export function HeroSection() {
   return (

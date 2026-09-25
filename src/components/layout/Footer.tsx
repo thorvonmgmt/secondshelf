@@ -1,10 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
-import { ArrowUpRight } from 'lucide-react';
-import { InstagramIcon } from '@/components/ui/InstagramIcon';
 
-const INSTAGRAM_URL = 'https://instagram.com/secondshelf';
-const INSTAGRAM_HANDLE = '@secondshelf';
+const INSTAGRAM_HANDLE = '@secondself.exe';
 
 export function Footer() {
   return (
@@ -29,18 +26,14 @@ export function Footer() {
             </p>
           </div>
 
-          {/* Instagram Action */}
-          <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4">
-            <a
-              href={INSTAGRAM_URL}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2.5 px-6 py-3 rounded-full bg-[#FAF9F5] text-[#122416] text-xs font-bold hover:bg-[#EAE8DD] transition-all hover:scale-105 shadow-md"
-            >
-              <InstagramIcon className="w-4 h-4 text-[#122416]" />
-              <span>Follow {INSTAGRAM_HANDLE}</span>
-              <ArrowUpRight className="w-3.5 h-3.5 opacity-60" />
-            </a>
+          {/* Instagram Handle Info */}
+          <div className="flex flex-col items-start md:items-end">
+            <span className="text-[11px] uppercase tracking-wider text-[#8FA28F]">
+              Official Instagram
+            </span>
+            <span className="text-base font-semibold text-[#B5D0A4] mt-1 font-mono">
+              {INSTAGRAM_HANDLE}
+            </span>
           </div>
         </div>
 

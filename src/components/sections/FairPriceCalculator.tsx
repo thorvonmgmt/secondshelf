@@ -19,9 +19,6 @@ import {
   ArrowRight,
   RotateCcw,
 } from 'lucide-react';
-import { InstagramIcon } from '@/components/ui/InstagramIcon';
-
-const INSTAGRAM_URL = 'https://instagram.com/secondshelf';
 
 export function FairPriceCalculator() {
   const [title, setTitle] = useState('The Psychology of Money');
@@ -359,15 +356,9 @@ export function FairPriceCalculator() {
                   )}
                 </button>
 
-                <a
-                  href={INSTAGRAM_URL}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="w-full py-3 px-4 rounded-full border border-[#25432B] hover:bg-[#1A3420] text-[#FAF9F5] text-xs font-semibold transition-colors flex items-center justify-center gap-2 text-center"
-                >
-                  <InstagramIcon className="w-4 h-4 text-[#B5D0A4]" />
-                  <span>Send to SecondShelf on Instagram →</span>
-                </a>
+                <p className="text-center text-[11px] text-[#A6BFA6]">
+                  Paste your copied valuation directly in DM to <strong className="text-[#FAF9F5]">@secondself.exe</strong>
+                </p>
 
                 {/* Disclaimer */}
                 <div className="flex items-start gap-2 pt-2 text-[10px] text-[#8FA28F] leading-relaxed">

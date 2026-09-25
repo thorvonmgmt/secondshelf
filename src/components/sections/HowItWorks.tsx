@@ -1,9 +1,7 @@
 import React from 'react';
-import { ArrowRight, Search, MessageSquare, Image as ImageIcon, Scale, Truck } from 'lucide-react';
-import { InstagramIcon } from '@/components/ui/InstagramIcon';
+import { Search, MessageSquare, Image as ImageIcon, Scale, Truck } from 'lucide-react';
 
-const INSTAGRAM_URL = 'https://instagram.com/secondshelf';
-const INSTAGRAM_HANDLE = '@secondshelf';
+const INSTAGRAM_HANDLE = '@secondself.exe';
 
 export function HowItWorks() {
   const steps = [
@@ -55,16 +53,9 @@ export function HowItWorks() {
             </p>
           </div>
 
-          <a
-            href={INSTAGRAM_URL}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-[#122416] text-[#FAF9F5] text-xs font-semibold hover:bg-[#1A3420] transition-colors self-start md:self-auto"
-          >
-            <InstagramIcon className="w-3.5 h-3.5 text-[#B5D0A4]" />
-            <span>Open Instagram ({INSTAGRAM_HANDLE})</span>
-            <ArrowRight className="w-3.5 h-3.5" />
-          </a>
+          <div className="self-start md:self-auto px-4 py-2 rounded-full bg-[#F2F1EA] border border-[#E3E2D8] text-xs text-[#586358] font-medium">
+            <span>Direct Instagram Inquiries: <strong className="text-[#122416]">{INSTAGRAM_HANDLE}</strong></span>
+          </div>
         </div>
 
         {/* 5-Step Cards */}

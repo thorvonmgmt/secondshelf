@@ -3,11 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { Menu, X, ArrowUpRight } from 'lucide-react';
-import { InstagramIcon } from '@/components/ui/InstagramIcon';
-
-const INSTAGRAM_URL = 'https://instagram.com/secondshelf';
-const INSTAGRAM_HANDLE = '@secondshelf';
+import { Menu, X } from 'lucide-react';
 
 export function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -63,18 +59,13 @@ export function Header() {
           ))}
         </nav>
 
-        {/* Right Action: Instagram CTA */}
+        {/* Right Info: Official Handle */}
         <div className="flex items-center gap-3">
-          <a
-            href={INSTAGRAM_URL}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 px-4 py-2 sm:px-5 sm:py-2.5 rounded-full bg-[#122416] text-[#FAF9F5] text-xs font-semibold hover:bg-[#1A3420] transition-all hover:scale-[1.02] shadow-sm"
-          >
-            <InstagramIcon className="w-3.5 h-3.5 text-[#B5D0A4]" />
-            <span>Connect on Instagram</span>
-            <ArrowUpRight className="w-3.5 h-3.5 opacity-70 hidden sm:inline" />
-          </a>
+          <div className="hidden sm:flex items-center text-xs text-[#586358]">
+            <span className="font-mono text-[#122416] font-semibold bg-[#122416]/5 px-3 py-1.5 rounded-full border border-[#122416]/10">
+              @secondself.exe
+            </span>
+          </div>
 
           {/* Mobile hamburger */}
           <button
@@ -101,17 +92,8 @@ export function Header() {
                 {link.label}
               </a>
             ))}
-            <div className="pt-2">
-              <a
-                href={INSTAGRAM_URL}
-                target="_blank"
-                rel="noopener noreferrer"
-                onClick={() => setMobileMenuOpen(false)}
-                className="w-full py-3 rounded-xl bg-[#122416] text-[#FAF9F5] text-xs font-bold flex items-center justify-center gap-2"
-              >
-                <InstagramIcon className="w-4 h-4 text-[#B5D0A4]" />
-                <span>Message on Instagram ({INSTAGRAM_HANDLE})</span>
-              </a>
+            <div className="pt-2 text-center text-xs text-[#586358]">
+              Official Instagram: <span className="font-semibold text-[#122416]">@secondself.exe</span>
             </div>
           </nav>
         </div>
